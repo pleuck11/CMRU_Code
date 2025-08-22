@@ -1,0 +1,54 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "AcademicYear 1",
+      "path": "AcademicYear_1"
+    },
+    {
+      "name": "AcademicYear 2",
+      "path": "AcademicYear_2"
+    },
+    {
+      "name": "AcademicYear 3",
+      "path": "AcademicYear_3"
+    },
+    {
+      "name": "COM 1305",
+      "path": "AcademicYear_1/COM-1305"
+    },
+    {
+      "name": "COM 1308",
+      "path": "AcademicYear_1/COM-1308"
+    },
+    {
+      "name": "COM 1602",
+      "path": "AcademicYear_1/COM-1602"
+    },
+    {
+      "name": "COM 2303",
+      "path": "AcademicYear_2/COM_2303"
+    },
+    {
+      "name": "COM 2305",
+      "path": "AcademicYear_2/COM_2305"
+    },
+    {
+      "name": "COM 3302",
+      "path": "AcademicYear_3/COM3302"
+    },
+    {
+      "name": "COM 3410",
+      "path": "AcademicYear_3/COM3410"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "COM*": true
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+  }
+}
