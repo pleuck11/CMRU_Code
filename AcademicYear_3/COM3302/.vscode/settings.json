@@ -1,0 +1,7 @@
+{
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  },
+  "java.debug.settings.onBuildFailureProceed": true
+}

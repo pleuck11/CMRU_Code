@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ข้อสอบ </title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        .quiz-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .quiz-container .question {
+            margin-bottom: 20px;
+        }
+
+        .quiz-container .question h3 {
+            margin-bottom: 10px;
+        }
+
+        .quiz-container .question label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .quiz-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .quiz-container button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2> ข้อสอบ </h2>
+
+        <!-- ข้อ 1 -->
+        <div class="question">
+            <h3>1. กำแพงที่ยาวที่สุด?</h3>
+            <label>
+                <input type="radio" name="question1" value="Paris" required>
+                กำแพงเพรช
+            </label>
+            <label>
+                <input type="radio" name="question1" value="London">
+                กำแพงเมืองไทย
+            </label>
+            <label>
+                <input type="radio" name="question1" value="Berlin">
+                กำแพงเมืองจีน
+            </label>
+            <label>
+                <input type="radio" name="question1" value="Madrid">
+                กำแพงรัสเซีย
+            </label>
+        </div>
+
+        <!-- ข้อ 2 -->
+        <div class="question">
+            <h3>2. ตอบคำถามต่อไปนี้ 2 + 2?</h3>
+            <label>
+                <input type="radio" name="question2" value="3" required>
+                3
+            </label>
+            <label>
+                <input type="radio" name="question2" value="4">
+                4
+            </label>
+            <label>
+                <input type="radio" name="question2" value="5">
+                5
+            </label>
+            <label>
+                <input type="radio" name="question2" value="6">
+                6
+            </label>
+        </div>
+
+        <!-- ข้อ 3 -->
+        <div class="question">
+            <h3>3. ม้ามีกี่ขา?</h3>
+            <label>
+                <input type="radio" name="question3" value="Earth" required>
+                1
+            </label>
+            <label>
+                <input type="radio" name="question3" value="Mars">
+                2
+            </label>
+            <label>
+                <input type="radio" name="question3" value="Jupiter">
+                3
+            </label>
+            <label>
+                <input type="radio" name="question3" value="Saturn">
+                4
+            </label>
+        </div>
+
+        <button type="submit">ส่ง</button>
+
+        <div class="container">
+            <h1> Home </h1>
+            <a href="8-Homepage.html"> Click </a>
+        </div>
+            
+
+    </form>
+</div>
+
+</body>
+</html>

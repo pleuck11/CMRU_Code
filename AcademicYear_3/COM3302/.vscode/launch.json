@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Switch1",
+      "request": "launch",
+      "mainClass": "Switch1",
+      "projectName": "AcademicYear_3_db7118fb",
+      "console": "externalTerminal"
+    },
+    {
+      "type": "java",
+      "name": "BMICalculator",
+      "request": "launch",
+      "mainClass": "BMICalculator",
+      "projectName": "AcademicYear_3_db7118fb",
+      "console": "externalTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run Java Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "console": "externalTerminal"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": ".."
+    },
+    {
+      "name": "test",
+      "path": "COM3410"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "COM*": true
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+  }
+}

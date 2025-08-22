@@ -1,0 +1,11 @@
+-- 10. สร้างตาราง student ดังนี้
+
+-- CREATE TABLE student (
+--    student_id VARCHAR(10) NOT NULL,
+--    student_name VARCHAR(50),
+--    student_surname VARCHAR(50),
+--    student_tal VARCHAR(10),
+--    Fac_id int(3),
+--    PRIMARY KEY (student_id),
+--    Foreign KEY (Fac_id) references faculty(Fac_id)
+-- );

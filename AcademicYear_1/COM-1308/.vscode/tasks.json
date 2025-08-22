@@ -1,0 +1,49 @@
+{
+	"tasks": [
+		{
+			"args": ["-fdiagnostics-color=always", "-O2", "-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
+			"command": "C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe",
+			"group": {
+				"isDefault": true,
+				"kind": "build"
+			},
+			"label": "C/C++: Build active file (Windows)",
+			"options": {
+				"cwd": "C:/Program Files (x86)/Dev-Cpp/MinGW64/bin"
+			},
+			"presentation": {
+				"clear": true,
+				"echo": false,
+				"focus": false,
+				"panel": "shared",
+				"reveal": "silent",
+				"showReuseMessage": false
+			},
+			"problemMatcher": "$gcc",
+			"type": "shell"
+		},
+		{
+			"args": ["-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+			"command": "/usr/bin/gcc",
+			"group": {
+				"isDefault": true,
+				"kind": "build"
+			},
+			"label": "C/C++: Build active file (Linux)",
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"presentation": {
+				"clear": true,
+				"echo": true,
+				"focus": false,
+				"panel": "shared",
+				"reveal": "always",
+				"showReuseMessage": false
+			},
+			"problemMatcher": "$gcc",
+			"type": "shell"
+		}
+	],
+	"version": "2.0.0"
+}
