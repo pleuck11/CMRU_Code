@@ -18,6 +18,8 @@
     }
   ],
   "settings": {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.project.referencedLibraries": [
+      "COM3302/connect_databast/lib/mysql-connector-j-9.4.0.jar"
+    ]
   }
 }
