@@ -1,0 +1,25 @@
+{
+  // การตั้งค่าที่จะถูกใช้ "เฉพาะ" เมื่อเปิดไฟล์ภาษา Dart
+  "[dart]": {
+
+    
+    // ระบุให้ใช้ Formatter (ตัวจัดรูปแบบโค้ด) จาก Extension ของ Dart
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+
+    // สั่งให้จัดรูปแบบโค้ดอัตโนมัติ "ทุกครั้งที่เซฟไฟล์"
+    // (เป็นสิ่งที่นักพัฒนา Dart/Flutter ทำเป็นมาตรฐาน)
+    "editor.formatOnSave": true,
+
+    // (แนะนำอย่างยิ่ง)
+    // สั่งให้ VS Code ทำการ "แก้ไข" (dart fix)
+    // และ "จัดเรียง imports" ให้อัตโนมัติเมื่อเซฟ
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  // (แนะนำ) ตั้งค่าความยาวสูงสุดของบรรทัดโค้ด
+  // มาตรฐานของภาษา Dart คือ 80 ตัวอักษร
+  "dart.lineLength": 80
+}

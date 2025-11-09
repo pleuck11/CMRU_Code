@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dart: Current file (Terminal)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "terminal",            // สำคัญ: ให้รันใน Terminal (รับ input ได้)
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Dart: Current file with Args",
+      "type": "dart",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "terminal",
+      "args": ["3.5", "10"]            // ตัวอย่างอาร์กิวเมนต์ (ปรับได้)
+    }
+  ]
+}

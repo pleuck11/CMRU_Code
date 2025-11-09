@@ -4,20 +4,65 @@
       "name": "root",
       "path": "."
     },
+    // {
+    //   // "name": "AcademicYear 1",
+    //   // "path": "AcademicYear_1"
+    // },
     {
-      "name": "AcademicYear 1",
-      "path": "AcademicYear_1"
+      "name": "COM1305",
+      "path": "AcademicYear_1/COM1305"
     },
     {
-      "name": "AcademicYear 2",
-      "path": "AcademicYear_2"
+      "name": "COM1308",
+      "path": "AcademicYear_1/COM1308"
     },
     {
-      "name": "AcademicYear 3",
-      "path": "AcademicYear_3"
-    }
+      "name": "COM1602",
+      "path": "AcademicYear_1/COM1602"
+    },
+    // {
+    //   "name": "AcademicYear 2",
+    //   "path": "AcademicYear_2"
+    // },
+    {
+      "name": "COM2303",
+      "path": "AcademicYear_2/COM2303"
+    },
+    {
+      "name": "COM2305",
+      "path": "AcademicYear_2/COM2305"
+    },
+    // {
+    //   "name": "AcademicYear 3",
+    //   "path": "AcademicYear_3"
+    // }
+    {
+      "name": "COM3302",
+      "path": "AcademicYear_3/COM3302"
+    },
+        {
+      "name": "COM3410",
+      "path": "AcademicYear_3/COM3410"
+    },
+        {
+      "name": "COM3604",
+      "path": "AcademicYear_3/COM3604"
+    },
+        {
+      "name": "COM4304",
+      "path": "AcademicYear_3/COM4304"
+    },
   ],
+
   "settings": {
+    "files.exclude": {
+      "**AcademicYear_1**": false,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+
     "java.project.referencedLibraries": [
       "COM3302/connect_databast/lib/mysql-connector-j-9.4.0.jar"
     ]
