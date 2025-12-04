@@ -1,3 +1,12 @@
 [submodule "AcademicYear_3/COM4304/CMRU_Project_flutter_ui"]
 	path = AcademicYear_3/COM4304/CMRU_Project_flutter_ui
 	url = https://github.com/pleuck11/CMRU_Project_flutter_ui.git
+[submodule "AcademicYear_3/COM4304/Project/CMRU-API"]
+	path = AcademicYear_3/COM4304/Project/CMRU-API
+	url = https://github.com/CMRU-Computer-Science-66/CMRU-API.git
+[submodule "AcademicYear_3/COM4304/Project/CMRU_Project_flutter_number"]
+	path = AcademicYear_3/COM4304/Project/CMRU_Project_flutter_number
+	url = https://github.com/pleuck11/CMRU_Project_flutter_number.git
+[submodule "AcademicYear_3/COM4304/Project/CMRU_Project_flutter_ui"]
+	path = AcademicYear_3/COM4304/Project/CMRU_Project_flutter_ui
+	url = https://github.com/pleuck11/CMRU_Project_flutter_ui.git
