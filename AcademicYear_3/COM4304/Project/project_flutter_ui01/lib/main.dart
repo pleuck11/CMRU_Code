@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'menu.dart'; 
+import 'menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,8 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: menu(),
+    return MaterialApp(
+      title: 'Food Order App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: FoodOrderPage(),
     );
   }
 }
