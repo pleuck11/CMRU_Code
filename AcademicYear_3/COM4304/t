@@ -1,0 +1,56 @@
+import "dart:io"; // 1. แก้ Import เป็น import
+
+void main() {
+  print("Product_ID_1: ");
+  String? product_id_1 = stdin.readLineSync();
+  print("Product_Price_1 : ");
+  String? product_price_1 = stdin.readLineSync();
+
+  print("Product_ID_2 : ");
+  String? product_id_2 = stdin.readLineSync();
+  print("Product_Price_2 : ");
+  String? product_price_2 = stdin.readLineSync();
+
+  print("Product_ID_3: ");
+  String? product_id_3 = stdin.readLineSync();
+  print("Product_Price_3 : ");
+  String? product_price_3 = stdin.readLineSync();
+
+  // แปลงเป็นตัวเลขก่อน เพื่อให้ง่ายต่อการคำนวณและเปรียบเทียบ
+  int p1 = int.parse(product_price_1!);
+  int p2 = int.parse(product_price_2!);
+  int p3 = int.parse(product_price_3!);
+
+  int sum = p1 + p2 + p3;
+  print("---------------------------");
+  print("Total Price : $sum");
+
+  // 2. แก้ Logic: เปรียบเทียบราคา (p1, p2, p3) แทน ID
+  // และใช้ && (และ) เพื่อเช็คเงื่อนไขให้ครบในบรรทัดเดียว
+
+  if (p1 <= p2 && p1 <= p3) {
+    // กรณีสินค้าที่ 1 ราคาถูกที่สุด (หรือเท่ากับตัวอื่น)
+    print("สินค้าที่ 1 มีราคาถูกที่สุด : $product_id_1");
+    print("ได้รับส่วนลดเท่ากับราคาสินค้า");
+    print("ราคาสินค้า : $p1");
+    int sum_x = sum - p1;
+    print("ราคาสุทธิ : $sum_x");
+  } 
+  else if (p2 <= p1 && p2 <= p3) { 
+    // 3. แก้ Syntax: ใช้ else if สำหรับเงื่อนไขถัดมา
+    // กรณีสินค้าที่ 2 ราคาถูกที่สุด
+    print("สินค้าที่ 2 มีราคาถูกที่สุด : $product_id_2");
+    print("ได้รับส่วนลดเท่ากับราคาสินค้า");
+    print("ราคาสินค้า : $p2");
+    int sum_x = sum - p2;
+    print("ราคาสุทธิ : $sum_x");
+  } 
+  else {
+    // กรณีที่เหลือ (สินค้าที่ 3 ถูกที่สุด)
+    print("สินค้าที่ 3 มีราคาถูกที่สุด : $product_id_3");
+    print("ได้รับส่วนลดเท่ากับราคาสินค้า");
+    print("ราคาสินค้า : $p3");
+    int sum_x = sum - p3;
+    print("ราคาสุทธิ : $sum_x");
+  }
+}
